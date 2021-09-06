@@ -3,7 +3,7 @@
 @section('usuario')
     <div class="contenedor-texto">
         <div class="texto">
-            <h1 class="nombre">Paradise cosmetics</h1>
+            <h1 class="nombre"> <b>Paradise cosmetics</b> </h1>
             <h2 class="profesion">Distribuidora de cosmeticos</h2>
         </div>
     </div>
@@ -118,6 +118,166 @@
                         <p class="categoria">Precio o descripcion</p>
                     </div>
                 </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/8.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 15.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/9.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Tonico de rosas y manzana</p>
+                        <p class="categoria">$ 25.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/10.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Jabon liquido facial</p>
+                        <p class="categoria">$ 35.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/11.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 20.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/12.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 15.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/13.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 15.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/14.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 10.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/15.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 10.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/16.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 3.000 ud / Paquete $ 20.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/17.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 15.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/18.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 20.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/19.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 15.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/20.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 25.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/21.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 20.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/22.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 30.000</p>
+                    </div>
+                </div>
+
+                <div class="trabajo">
+                    <div class="thumb">
+                        <img src="{{asset('img/Productos/23.jpg')}}" alt="Lorem Ipsum">
+                    </div>
+                    <div class="descripcion">
+                        <p class="nombre">Nombre</p>
+                        <p class="categoria">$ 10.000</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -126,10 +286,10 @@
 
 @section('footer')
     <div class="contenedor">
-        <a class="twitter" href=""><i class="fa fa-twitter"></i></a>
+        {{-- <a class="twitter" href=""><i class="fa fa-twitter"></i></a>
         <a class="facebook" href=""><i class="fa fa-facebook"></i></a>
         <a class="youtube" href=""><i class="fa fa-youtube-play"></i></a>
-        {{-- <a class="github" href=""><i class="fa fa-github"></i></a> --}}
+        <a class="github" href=""><i class="fa fa-github"></i></a> --}}
         <a class="instagram" href="https://www.instagram.com/paradise_cosmetics07/"><i class="fa fa-instagram"></i></a>
     </div>
 @endsection
